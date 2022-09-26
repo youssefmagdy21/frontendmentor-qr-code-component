@@ -1,8 +1,71 @@
-* {
+/* -----------------------------page general styles--------------------------- */
+
+html {
+  box-sizing: border-box;
+  font-size: 100%;
+  height: 100%;
+}
+*,
+*::before,
+*::after {
+  box-sizing: inherit;
   font-family: "Outfit", sans-serif;
 }
+body {
+  margin: 0;
+  padding: 0;
+  height: inherit;
+  background-color: hsl(212, 45%, 89%);
+}
+h1,
+h2,
+h3 {
+  font-weight: 700;
+  line-height: 1.1;
+  margin: 0;
+}
 p {
+  margin: 0;
   font-size: 15px;
+}
+
+/* -----------------------------main content styles--------------------------- */
+.center-container {
+  width: 100%;
+  height: inherit;
+  /* Center vertically and horizontally */
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.qr-card-container {
+  background-color: hsl(0, 0%, 100%);
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  text-align: center;
+  width: 250px;
+  border-radius: 15px;
+  box-shadow: 1px 1px 5px rgba(0, 0, 0, 0.1);
+}
+.qr-card-img {
+  width: 100%;
+  border-radius: 18px;
+  padding: 12px;
+}
+
+.qr-card-title {
+  padding: 10px 20px 15px 20px;
+  font-size: 18px;
+  font-weight: bold;
+  color: hsl(218, 44%, 22%);
+}
+.qr-card-description {
+  padding: 0px 20px;
+  font-size: 12px;
+  color: hsl(220, 15%, 55%);
+  margin-bottom: 30px;
 }
 
 /* 
