@@ -68,6 +68,17 @@ p {
   margin-bottom: 30px;
 }
 
+.attribution {
+  background-color: white;
+  padding: 15px;
+}
+.attribution a {
+  text-decoration: none;
+  color: hsl(220, 15%, 55%);
+}
+.attribution a:hover {
+  color: navy;
+}
 /* 
 ## Colors
 
